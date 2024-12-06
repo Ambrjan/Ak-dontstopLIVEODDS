@@ -1,0 +1,12 @@
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Example odds data
+    const oddsData = {
+        matchTitle: 'Team A vs Team B',
+        oddsValue: 2.3
+    };
+
+    // Update HTML with odds data
+    document.querySelector('.match h2').textContent = oddsData.matchTitle;
+    document.getElementById('odds-value').textContent = oddsData.oddsValue;
+});
